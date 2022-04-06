@@ -1,0 +1,3 @@
+- A node is basically a worker machine. Used to be known as minions.
+- A cluster is a set of nodes grouped together.
+- Master node is responsible for orchestration of the worker nodes.
