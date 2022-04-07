@@ -1,7 +1,7 @@
-K8s comprises of several components:
-- API Server: This acts as the frontend service for k8s as it is what interacts with the client.
-- etcd: key-value store. Stores info of all nodes. Responsible for logging.
-- Scheduler: Distributes work or containers amongst nodes.
-- kubelet: Agent that runs on each node in a cluster
-- controller: brain behind the operations.
-- Container runtime: underlying software used to run containers e.g docker
+#K8s comprises of several components:
+- API Server- This acts as the frontend service for k8s as it is what interacts with the client.
+- etcd - key-value store. Stores info of all nodes. Responsible for logging.
+- Scheduler - Distributes work or containers amongst nodes.
+- kubelet -Agent that runs on each node in a cluster
+- controller -brain behind the operations.
+- Container runtime - underlying software used to run containers e.g docker
