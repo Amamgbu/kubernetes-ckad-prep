@@ -1,0 +1,4 @@
+Worker nodes are where the containers are hosted. Worker nodes have kubelet.
+
+
+Master nodes have kube api server, etcd, controller and scheduler. It is responsible for administration on k8s
