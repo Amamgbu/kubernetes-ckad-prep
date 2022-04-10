@@ -2,3 +2,11 @@
 - A single pod can have multiple containers. The other containers however are not new instances of an app rather they are helper containers.
 - Helper containers help in handling minimal tasks. Once a pod's app dies, the helper container dies as well.
 - Smallest object you can create in k8s.
+- Has 1 to 1 relationship with containers
+
+To get additional info about a pod, run the following command:
+kubectl get pods -o wide
+
+More
+https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/
+ https://kubernetes.io/docs/concepts/
