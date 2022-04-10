@@ -1,3 +1,4 @@
 - A pod is a single instance of an application. To scale up an app, you usually add more pods and then load balance traffic between them.
 - A single pod can have multiple containers. The other containers however are not new instances of an app rather they are helper containers.
 - Helper containers help in handling minimal tasks. Once a pod's app dies, the helper container dies as well.
+- Smallest object you can create in k8s.

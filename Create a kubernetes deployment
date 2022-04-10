@@ -1,0 +1,14 @@
+In order to create a simple k8s deployment, use the following command:
+kubectl create deployment hello-minikube --image=k8s.gcr.io/echoserver:1.10
+
+To expose the deployment, run the following command:
+kubectl expose deployment hello-minikube --type=NodePort --port=8080
+
+Get url of exposed service using minikube, run the following command:
+minikube service hello-minikube --url
+
+Then delete service
+kubectl delete services hello-minikube
+
+delete deployment
+kubectl delete deployment hello-minikube
